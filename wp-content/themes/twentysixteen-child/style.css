@@ -7,3 +7,54 @@ Author URI: http://www.karrinemagnussen.com
 Template: twentysixteen
 Version: 0.1.0
 */
+
+
+/*Remove Footer info*/
+
+#site-generator {
+    display: none;
+}
+.site-info {
+    display: none;
+    }
+
+    /*Post title text size*/
+
+.entry-title {
+    font-size: 40px;
+    font-size: 1.5rem;
+    line-height: 1.225;
+    margin-bottom: 1.05em;
+}
+
+/*Reduce Previous and Next Titles*/
+.post-navigation .post-title {
+    font-size: 28px;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+/* Remove the met data*/
+.single .byline, .group-blog .byline  {
+    display: none;
+}
+
+.posted-on
+{
+    display: none !important;
+}
+.cat-links 
+{
+    display: none !important;
+}
+.post-edit-link
+{
+    display: none !important;
+}
+
+
+.widget {
+    border-top: 2px solid #d0d0d0;
+    margin-bottom: 3.5em;
+    padding-top: 1.75em;
+}
