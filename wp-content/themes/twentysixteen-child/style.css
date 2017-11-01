@@ -75,3 +75,12 @@ Version: 0.1.0
 
 
 /* Create Dynamic Copyright */
+
+
+.header-image {
+  display: none;
+}
+
+.home .header-image {
+  display: inherit;
+}
