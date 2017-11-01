@@ -9,7 +9,7 @@ Version: 0.1.0
 */
 
 
-/*Remove Footer info*/
+/* Remove Footer info */
 
 #site-generator {
     display: none;
@@ -18,7 +18,7 @@ Version: 0.1.0
     display: none;
     }
 
-    /*Post title text size*/
+    /* Post title text size */
 
 .entry-title {
     font-size: 40px;
@@ -27,17 +27,19 @@ Version: 0.1.0
     margin-bottom: 1.05em;
 }
 
-/*Reduce Previous and Next Titles*/
+/* Reduce Previous and Next Titles */
 .post-navigation .post-title {
     font-size: 28px;
     font-size: 1rem;
     line-height: 1.25;
 }
 
-/* Remove the met data*/
+/* Remove the Meta Data*/
 .single .byline, .group-blog .byline  {
     display: none;
 }
+
+/*Remove Meta Data from Blog Posts*/
 
 .posted-on
 {
@@ -52,9 +54,24 @@ Version: 0.1.0
     display: none !important;
 }
 
-
+/* Adjust Border Line Size and Colour */
 .widget {
     border-top: 2px solid #d0d0d0;
     margin-bottom: 3.5em;
     padding-top: 1.75em;
 }
+
+.post-navigation {
+    border-top: 2px solid #d0d0d0 !important;
+    border-bottom: 2px solid #d0d0d0 !important;
+    clear: both;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    margin: 0 7.6923% 3.5em;
+}
+
+.post-navigation div + div {
+    border-top: 2px solid #d0d0d0 !important;
+}
+
+
+/* Create Dynamic Copyright */
